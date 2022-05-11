@@ -227,6 +227,10 @@ p.center {text-align: center;}
     max-width: none;
   }
 
+  article p {
+    font: 17px sans-serif;
+  }
+
   footer p {
     width: auto;
   }
