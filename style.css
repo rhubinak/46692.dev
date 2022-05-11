@@ -7,8 +7,8 @@
 html {overflow-y: scroll;}
 
 body {
-  font: 16px sans-serif;
-  color: #555;
+  font: 1rem sans-serif;
+  color: #444;
   background: #eee;
 }
 
@@ -40,7 +40,7 @@ ul.topnav li a {
 }  
 
 a:hover, a:visited:hover {
-  background-color: #555;
+  background-color: #444;
   color: #eee;
 }
 
@@ -188,6 +188,16 @@ p {
   text-align: justify;
 }
 
+article p {
+  font: 17px serif;
+}
+
+footer p {
+  padding: 1rem 0;
+  width: 50rem;
+  text-align: right;
+}
+
 p.center {text-align: center;}
   
 #logo p {margin-right: 0;}
@@ -215,6 +225,10 @@ p.center {text-align: center;}
   
   p, #skills, article p {
     max-width: none;
+  }
+
+  footer p {
+    width: auto;
   }
 }
 
