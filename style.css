@@ -183,12 +183,12 @@ p {
   line-height: 1.5;
 }
 
-#about p, article p {
+#about p, article p, article ol {
   max-width: 50rem;
   text-align: justify;
 }
 
-article p {
+article p, article ol {
   font: 17px serif;
 }
 
@@ -223,11 +223,11 @@ p.center {text-align: center;}
     margin: 0;
   }
   
-  p, #skills, article p {
+  p, #skills, article p, article ol {
     max-width: none;
   }
 
-  article p {
+  article p, article ol {
     font: 17px sans-serif;
   }
 
