@@ -178,7 +178,7 @@ h1, h2 {
   text-align: center;
 }
 
-p {
+p, ol {
   margin: auto;
   line-height: 1.5;
 }
@@ -188,7 +188,7 @@ p {
   text-align: justify;
 }
 
-article p, article ol {
+article p {
   font: 17px serif;
 }
 
